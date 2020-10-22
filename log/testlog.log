@@ -1,0 +1,68 @@
+2020-10-17 01:25:35,279 - logger_File -INFO - Scenario Register Account  for new Retail user Started 
+2020-10-17 01:25:43,616 - logger_File -INFO - Retail page is opened
+2020-10-17 01:25:43,625 - logger_File -INFO - Page title  is verified
+2020-10-17 01:25:44,596 - logger_File -INFO - User click on My Account
+2020-10-17 01:25:45,316 - logger_File -INFO - User click on register
+2020-10-17 01:25:46,366 - logger_File -INFO - User fill out Register form with information from Data Table
+2020-10-17 01:25:46,444 - logger_File -INFO - User select 'yes' for Subscribe
+2020-10-17 01:25:46,497 - logger_File -INFO - User click on privacy and policy check box
+2020-10-17 01:25:47,269 - logger_File -INFO - User click on Continue button
+2020-10-17 02:22:19,061 - logger_File -INFO - Scenario Register Account  for new Retail user Started 
+2020-10-17 02:22:27,870 - logger_File -INFO - Retail page is opened
+2020-10-17 02:22:27,880 - logger_File -INFO - Page title  is verified
+2020-10-17 02:22:28,801 - logger_File -INFO - User click on My Account
+2020-10-17 02:22:29,565 - logger_File -INFO - User click on register
+2020-10-17 02:22:30,391 - logger_File -INFO - User fill out Register form with information from Data Table
+2020-10-17 02:22:30,469 - logger_File -INFO - User select 'yes' for Subscribe
+2020-10-17 02:22:30,536 - logger_File -INFO - User click on privacy and policy check box
+2020-10-17 02:22:31,723 - logger_File -INFO - User click on Continue button
+2020-10-17 02:22:31,755 - logger_File -INFO - User Should see message 'Your Account Has Been Created!'
+2020-10-17 02:22:33,927 - logger_File -INFO - Register Account  for new Retail user   passed
+2020-10-21 14:33:58,624 - logger_File -INFO - Scenario Register Account  for new Retail user Started 
+2020-10-21 14:34:12,843 - logger_File -INFO - Retail page is opened
+2020-10-21 14:34:12,851 - logger_File -INFO - Page title  is verified
+2020-10-21 14:34:14,939 - logger_File -INFO - User click on My Account
+2020-10-21 14:34:15,779 - logger_File -INFO - User clicked on register
+2020-10-21 14:34:16,580 - logger_File -INFO - User fill out Register form with information from Data Table
+2020-10-21 14:34:16,673 - logger_File -INFO - User select 'yes' for Subscribe
+2020-10-21 14:34:16,732 - logger_File -INFO - User click on privacy and policy check box
+2020-10-21 14:34:17,478 - logger_File -INFO - User click on Continue button
+2020-10-21 14:35:39,037 - logger_File -INFO - Scenario Register Account  for new Retail user Started 
+2020-10-21 14:35:50,075 - logger_File -INFO - Retail page is opened
+2020-10-21 14:35:50,338 - logger_File -INFO - Page title  is verified
+2020-10-21 14:35:53,538 - logger_File -INFO - User click on My Account
+2020-10-21 14:35:55,245 - logger_File -INFO - User clicked on register
+2020-10-21 14:35:56,035 - logger_File -INFO - User fill out Register form with information from Data Table
+2020-10-21 14:35:56,112 - logger_File -INFO - User select 'yes' for Subscribe
+2020-10-21 14:35:56,169 - logger_File -INFO - User click on privacy and policy check box
+2020-10-21 14:35:57,684 - logger_File -INFO - User click on Continue button
+2020-10-21 14:36:02,898 - logger_File -INFO - User Should see message 'Your Account Has Been Created!'
+2020-10-21 14:36:04,064 - logger_File -INFO - Register Account  for new Retail user   passed
+2020-10-21 15:18:07,833 - logger_File -INFO - Scenario Register Account  for new Retail user Started 
+2020-10-21 15:18:17,766 - logger_File -INFO - Retail page is opened
+2020-10-21 15:18:17,775 - logger_File -INFO - Page title  is verified
+2020-10-21 15:18:18,766 - logger_File -INFO - User click on My Account
+2020-10-21 15:18:19,614 - logger_File -INFO - User clicked on register
+2020-10-21 15:18:20,390 - logger_File -INFO - User fill out Register form with information from Data Table
+2020-10-21 15:18:20,463 - logger_File -INFO - User select 'yes' for Subscribe
+2020-10-21 15:18:20,514 - logger_File -INFO - User click on privacy and policy check box
+2020-10-21 15:18:21,358 - logger_File -INFO - User click on Continue button
+2020-10-21 15:19:12,345 - logger_File -INFO - Scenario Register Account  for new Retail user Started 
+2020-10-21 15:19:21,292 - logger_File -INFO - Retail page is opened
+2020-10-21 15:19:21,300 - logger_File -INFO - Page title  is verified
+2020-10-21 15:19:22,260 - logger_File -INFO - User click on My Account
+2020-10-21 15:19:23,035 - logger_File -INFO - User clicked on register
+2020-10-21 15:19:23,932 - logger_File -INFO - User fill out Register form with information from Data Table
+2020-10-21 15:19:24,006 - logger_File -INFO - User select 'yes' for Subscribe
+2020-10-21 15:19:24,060 - logger_File -INFO - User click on privacy and policy check box
+2020-10-21 15:19:25,074 - logger_File -INFO - User click on Continue button
+2020-10-21 15:19:30,115 - logger_File -INFO - User Should see message 'Your Account Has Been Created!'
+2020-10-21 15:19:31,375 - logger_File -INFO - Register Account  for new Retail user   passed
+2020-10-21 19:51:55,547 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2020-10-21 19:52:03,021 - logger_File -INFO - Execute all information from Actor Table   undefined
+2020-10-21 20:02:53,291 - logger_File -INFO - Scenario Execute all information from Actor Table Started 
+2020-10-21 20:03:09,145 - logger_File -INFO - Connection has been established
+2020-10-21 20:03:09,453 - logger_File -INFO - select * from public.actor: has been executed
+2020-10-21 20:03:09,515 - logger_File -INFO - ResultSet is stored in csv file in outcome folder
+2020-10-21 20:03:09,516 - logger_File -INFO - DataBase connection has been closed
+2020-10-21 20:03:10,143 - logger_File -INFO - Execute all information from Actor Table   passed
