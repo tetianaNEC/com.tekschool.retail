@@ -1,4 +1,7 @@
 package pageObjects;
+import java.util.List;
+
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,10 +14,11 @@ public class MyAccountPageObj extends Base {
 	private WebElement myAccountText;
 	@FindBy(xpath = "//h2[contains(text(),'My Orders')]")
 	private WebElement myOrdersText;
-	@FindBy(xpath = "(//a[contains(text(), 'Logout')])[2]")
+	@FindBy(xpath = "//a[contains(text(),'Logout')]")
 	private WebElement logoutButton;
-	@FindBy(xpath = "//h1[contains(text(),'Account Logout')]")
-	private WebElement accountLogoutText;
+	@FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//li")
+	private List<WebElement> accountMenuElements;
+	
 	public boolean isMyAccountDisplayed() {
 		if (myAccountText.isDisplayed())
 			return true;
@@ -27,15 +31,14 @@ public class MyAccountPageObj extends Base {
 		else
 			return false;
 	}
+	public boolean isLogoutButtonDisplayed() {
+		return logoutButton.isDisplayed();
+		
+		}
+	
 	public void clickOnLogoutButton() {
 		logoutButton.click();
 		
 	}
-	public boolean isLogOutConfirmationTextDisplayed() {
-		if(accountLogoutText.isDisplayed()) 
-		return true;
-		else
-		return false;
-	
-}
+
 }

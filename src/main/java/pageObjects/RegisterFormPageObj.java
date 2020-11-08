@@ -1,5 +1,9 @@
 package pageObjects;
 
+
+
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -14,20 +18,39 @@ public class RegisterFormPageObj extends Base {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//a[text()='Register']")
-	private WebElement register;
+	
+	@FindBy(xpath = "//h1[contains(text(),'Register Account')]")
+	private WebElement registerAccountFormName;
+	@FindBy(xpath = "//legend[contains(text(),'Your Personal Details')]")
+	private WebElement yourPersonalDetailsSection;
+	@FindBy(xpath = "//label[contains(text(),'First Name')]")
+	private WebElement labelFirstName;
 	@FindBy(id = "input-firstname")
 	private WebElement firstNameField;
+	@FindBy(xpath = "//label[contains(text(),'Last Name')]")
+	private WebElement labelLastName;
 	@FindBy(id = "input-lastname")
 	private WebElement lastNameField;
+	@FindBy(xpath = "//label[contains(text(),'E-Mail')]")
+	private WebElement labelEmail;
 	@FindBy(id = "input-email")
 	private WebElement emailField;
+	@FindBy(xpath = "//label[contains(text(),'Telephone')]")
+	private WebElement labelTelephone;
 	@FindBy(id = "input-telephone")
 	private WebElement phoneField;
+	@FindBy(xpath = "//legend[contains(text(),'Your Password')]")
+	private WebElement yourPasswordSection;
+	@FindBy(xpath = "(//label[contains(text(),'Password')])[1]")
+	private WebElement labelPassword;
 	@FindBy(id = "input-password")
 	private WebElement passwordField;
+	@FindBy(xpath = "//label[contains(text(),'Password Confirm')]")
+	private WebElement labelPasswordConfirm;
 	@FindBy(id = "input-confirm")
 	private WebElement passwordConfirmField;
+	@FindBy(xpath = "//legend[contains(text(),'Newsletter')]")
+	private WebElement newsletterSection;
 	@FindBy(xpath = "(//input[@name='newsletter'])[1]")
 	private WebElement yesSubscribe;
 	@FindBy(xpath = "(//input[@name='newsletter'])[2]")
@@ -40,37 +63,94 @@ public class RegisterFormPageObj extends Base {
 	private WebElement yourAcctCreatedMessage;
 
 	// we start writting methods for
-	public void clickOnRegister() {
-		WebDriverUtility.clickOnElement(register); // this is the same as register.click
+	public boolean isRegisterAccountFormDisplayed() {
+		return WebDriverUtility.isElementDisplayed(registerAccountFormName);
+	}
+
+	public boolean isYourPersonalDetailsSectionIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(yourPersonalDetailsSection);
+		
+	}
+
+	public boolean isLabelFirstNameIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(labelFirstName);
 	}
 
 	public void enterFirstName(String fName) {
 		firstNameField.sendKeys(fName);
 	}
 
+	public boolean isLabelLastNameIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(labelLastName);
+	}
+
 	public void enterLastName(String lName) {
 		lastNameField.sendKeys(lName);
+	}
+
+	public boolean isLabelEmailIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(labelEmail);
 	}
 
 	public void enterEmail(String email) {
 		emailField.sendKeys(email);
 	}
 
+	public boolean isLabelTelephoneIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(labelTelephone);
+	}
+
 	public void enterPhone(String phone) {
 		phoneField.sendKeys(phone);
+	}
+
+	public boolean isYourPasswordSectionIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(yourPasswordSection);
+	}
+
+	public boolean isLabelPasswordIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(labelPassword);
 	}
 
 	public void enterPassword(String password) {
 		passwordField.sendKeys(password);
 	}
 
+	public boolean isLabelPassConfirmIsDisplayed() {
+		return WebDriverUtility.isElementDisplayed(labelPasswordConfirm);
+
+	}
+
 	public void enterPasswordConfirm(String passwordConfirm) {
 		passwordConfirmField.sendKeys(passwordConfirm);
+	}
+
+	public boolean isNewsletterSectionPresent() {
+		return WebDriverUtility.isElementDisplayed(newsletterSection);
+
+	}
+
+	public boolean verifyNoOnSubscribeByDefault() {
+		return noSubscribe.isSelected();
+
 	}
 
 	public void selectYesOnSubscribe() {
 		if (!yesSubscribe.isSelected())
 			yesSubscribe.click();
+	}
+
+	public boolean isContinueButtonPresent() {
+		return continueButton.isDisplayed();
+
+	}
+
+	public boolean isPrivacyPolicyDisplayed() {
+		return privacyPolicy.isDisplayed();
+		
+	}
+	public String privacyPolicyLocation() {
+		return privacyPolicy.getCssValue("display");
 	}
 
 	public void clickOnPrivacyPolicy() {

@@ -10,19 +10,20 @@ import core.Base;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
+import pageObjects.LoginPageObj;
 import pageObjects.RegisterFormPageObj;
 import utilities.WebDriverUtility;
 
 public class RegisterFormStepDefinition extends Base {
 	
 	RegisterFormPageObj registerFormPageObj = new RegisterFormPageObj();
+	LoginPageObj loginPageObj = new LoginPageObj();
 	
 	@When("^User click on Register$")
 	public void user_click_on_Register() throws Throwable {
 		//we should use try /catch block as this code is risky
 		try {
-	registerFormPageObj.clickOnRegister();
+     loginPageObj.verifyRegisterInDropDownMenuAndClick();
 	logger.info("User clicked on register");
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
@@ -46,7 +47,7 @@ public class RegisterFormStepDefinition extends Base {
 			registerFormPageObj.enterPassword(dataList.get(0).get("password"));
 			registerFormPageObj.enterPasswordConfirm(dataList.get(0).get("password"));
 		
-		logger.info("User fill out Register form with information from Data Table");
+		logger.info("User filled out Register form with information from Data Table");
 		
 		
 	}

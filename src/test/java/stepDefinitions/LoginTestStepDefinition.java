@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import org.junit.Assert;
+
 import org.openqa.selenium.ElementNotInteractableException;
 
 import core.Base;
@@ -8,6 +9,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjects.LoginPageObj;
+import pageObjects.LogoutPageobject;
 import pageObjects.MyAccountPageObj;
 import utilities.WebDriverUtility;
 
@@ -15,6 +17,7 @@ public class LoginTestStepDefinition extends Base {
 	// we need to create obj of loginPageObj
 	LoginPageObj loginPageObj = new LoginPageObj();
 	MyAccountPageObj myAccountPageObj = new MyAccountPageObj();
+	LogoutPageobject logoutPageobject =new LogoutPageobject();
 
 	@Given("^User is on Retail website$")
 	public void user_is_on_Retail_website() throws Throwable {
@@ -81,7 +84,7 @@ public class LoginTestStepDefinition extends Base {
 
 	@Then("^User Should be logged out from my Account")
 	public void user_should_be_logged_out_from_my_account() throws Throwable {
-		Assert.assertTrue(myAccountPageObj.isLogOutConfirmationTextDisplayed());
+		Assert.assertTrue(logoutPageobject.isLogOutConfirmationTextDisplayed());
 		WebDriverUtility.screenShot();
 		WebDriverUtility.wait(3000);
 }

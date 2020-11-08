@@ -1,6 +1,10 @@
-pageObjects\RegisterFormPageObj.class
 utilities\WebDriverUtility.class
-core\Base.class
-pageObjects\LoginPageObj.class
 pageObjects\MyAccountPageObj.class
 utilities\DataBaseUtility.class
+pageObjects\RegisterFormPageObj.class
+core\Base.class
+pageObjects\LoginPageObj.class
+pageObjects\ShoppingCartPageObj.class
+pageObjects\CurrencyPageObj.class
+pageObjects\ProductMenuPageObj.class
+pageObjects\LogoutPageobject.class

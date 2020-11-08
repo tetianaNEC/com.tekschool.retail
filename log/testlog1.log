@@ -1,68 +1,393 @@
-2020-10-17 01:25:35,279 [main] INFO logger_File - Scenario Register Account  for new Retail user Started 
-2020-10-17 01:25:43,616 [main] INFO logger_File - Retail page is opened
-2020-10-17 01:25:43,625 [main] INFO logger_File - Page title  is verified
-2020-10-17 01:25:44,596 [main] INFO logger_File - User click on My Account
-2020-10-17 01:25:45,316 [main] INFO logger_File - User click on register
-2020-10-17 01:25:46,366 [main] INFO logger_File - User fill out Register form with information from Data Table
-2020-10-17 01:25:46,444 [main] INFO logger_File - User select 'yes' for Subscribe
-2020-10-17 01:25:46,497 [main] INFO logger_File - User click on privacy and policy check box
-2020-10-17 01:25:47,269 [main] INFO logger_File - User click on Continue button
-2020-10-17 02:22:19,061 [main] INFO logger_File - Scenario Register Account  for new Retail user Started 
-2020-10-17 02:22:27,870 [main] INFO logger_File - Retail page is opened
-2020-10-17 02:22:27,880 [main] INFO logger_File - Page title  is verified
-2020-10-17 02:22:28,801 [main] INFO logger_File - User click on My Account
-2020-10-17 02:22:29,565 [main] INFO logger_File - User click on register
-2020-10-17 02:22:30,391 [main] INFO logger_File - User fill out Register form with information from Data Table
-2020-10-17 02:22:30,469 [main] INFO logger_File - User select 'yes' for Subscribe
-2020-10-17 02:22:30,536 [main] INFO logger_File - User click on privacy and policy check box
-2020-10-17 02:22:31,723 [main] INFO logger_File - User click on Continue button
-2020-10-17 02:22:31,755 [main] INFO logger_File - User Should see message 'Your Account Has Been Created!'
-2020-10-17 02:22:33,927 [main] INFO logger_File - Register Account  for new Retail user   passed
-2020-10-21 14:33:58,624 [main] INFO logger_File - Scenario Register Account  for new Retail user Started 
-2020-10-21 14:34:12,843 [main] INFO logger_File - Retail page is opened
-2020-10-21 14:34:12,851 [main] INFO logger_File - Page title  is verified
-2020-10-21 14:34:14,939 [main] INFO logger_File - User click on My Account
-2020-10-21 14:34:15,779 [main] INFO logger_File - User clicked on register
-2020-10-21 14:34:16,580 [main] INFO logger_File - User fill out Register form with information from Data Table
-2020-10-21 14:34:16,673 [main] INFO logger_File - User select 'yes' for Subscribe
-2020-10-21 14:34:16,732 [main] INFO logger_File - User click on privacy and policy check box
-2020-10-21 14:34:17,478 [main] INFO logger_File - User click on Continue button
-2020-10-21 14:35:39,037 [main] INFO logger_File - Scenario Register Account  for new Retail user Started 
-2020-10-21 14:35:50,075 [main] INFO logger_File - Retail page is opened
-2020-10-21 14:35:50,338 [main] INFO logger_File - Page title  is verified
-2020-10-21 14:35:53,538 [main] INFO logger_File - User click on My Account
-2020-10-21 14:35:55,245 [main] INFO logger_File - User clicked on register
-2020-10-21 14:35:56,035 [main] INFO logger_File - User fill out Register form with information from Data Table
-2020-10-21 14:35:56,112 [main] INFO logger_File - User select 'yes' for Subscribe
-2020-10-21 14:35:56,169 [main] INFO logger_File - User click on privacy and policy check box
-2020-10-21 14:35:57,684 [main] INFO logger_File - User click on Continue button
-2020-10-21 14:36:02,898 [main] INFO logger_File - User Should see message 'Your Account Has Been Created!'
-2020-10-21 14:36:04,064 [main] INFO logger_File - Register Account  for new Retail user   passed
-2020-10-21 15:18:07,833 [main] INFO logger_File - Scenario Register Account  for new Retail user Started 
-2020-10-21 15:18:17,766 [main] INFO logger_File - Retail page is opened
-2020-10-21 15:18:17,775 [main] INFO logger_File - Page title  is verified
-2020-10-21 15:18:18,766 [main] INFO logger_File - User click on My Account
-2020-10-21 15:18:19,614 [main] INFO logger_File - User clicked on register
-2020-10-21 15:18:20,390 [main] INFO logger_File - User fill out Register form with information from Data Table
-2020-10-21 15:18:20,463 [main] INFO logger_File - User select 'yes' for Subscribe
-2020-10-21 15:18:20,514 [main] INFO logger_File - User click on privacy and policy check box
-2020-10-21 15:18:21,358 [main] INFO logger_File - User click on Continue button
-2020-10-21 15:19:12,345 [main] INFO logger_File - Scenario Register Account  for new Retail user Started 
-2020-10-21 15:19:21,292 [main] INFO logger_File - Retail page is opened
-2020-10-21 15:19:21,300 [main] INFO logger_File - Page title  is verified
-2020-10-21 15:19:22,260 [main] INFO logger_File - User click on My Account
-2020-10-21 15:19:23,035 [main] INFO logger_File - User clicked on register
-2020-10-21 15:19:23,932 [main] INFO logger_File - User fill out Register form with information from Data Table
-2020-10-21 15:19:24,006 [main] INFO logger_File - User select 'yes' for Subscribe
-2020-10-21 15:19:24,060 [main] INFO logger_File - User click on privacy and policy check box
-2020-10-21 15:19:25,074 [main] INFO logger_File - User click on Continue button
-2020-10-21 15:19:30,115 [main] INFO logger_File - User Should see message 'Your Account Has Been Created!'
-2020-10-21 15:19:31,375 [main] INFO logger_File - Register Account  for new Retail user   passed
-2020-10-21 19:51:55,547 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
-2020-10-21 19:52:03,021 [main] INFO logger_File - Execute all information from Actor Table   undefined
-2020-10-21 20:02:53,291 [main] INFO logger_File - Scenario Execute all information from Actor Table Started 
-2020-10-21 20:03:09,145 [main] INFO logger_File - Connection has been established
-2020-10-21 20:03:09,453 [main] INFO logger_File - select * from public.actor: has been executed
-2020-10-21 20:03:09,515 [main] INFO logger_File - ResultSet is stored in csv file in outcome folder
-2020-10-21 20:03:09,516 [main] INFO logger_File - DataBase connection has been closed
-2020-10-21 20:03:10,143 [main] INFO logger_File - Execute all information from Actor Table   passed
+2020-11-08 16:38:11,530 [main] INFO logger_File - Scenario A) Register account for Test Environment Started 
+2020-11-08 16:38:21,004 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:38:21,013 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:38:25,227 [main] INFO logger_File - User click on My Account
+2020-11-08 16:38:26,039 [main] INFO logger_File - User clicked on Register
+2020-11-08 16:38:26,073 [main] INFO logger_File - User see Register Account form
+2020-11-08 16:38:26,568 [main] INFO logger_File - Your Personal Details section varified
+2020-11-08 16:38:26,642 [main] INFO logger_File - Password section verified
+2020-11-08 16:38:27,048 [main] INFO logger_File - User filled out Register form with information from Data Table
+2020-11-08 16:38:27,433 [main] INFO logger_File - Newsletter section present
+2020-11-08 16:38:27,457 [main] INFO logger_File - 'No' radio button selected by default
+2020-11-08 16:38:28,097 [main] INFO logger_File - User selected Yes to subscribe
+2020-11-08 16:38:28,451 [main] INFO logger_File - Continue button present
+2020-11-08 16:38:28,475 [main] INFO logger_File - Check box location is verified
+2020-11-08 16:38:28,525 [main] INFO logger_File - User checked Privacy Policy box
+2020-11-08 16:38:30,435 [main] INFO logger_File - User clicked on Continue button
+2020-11-08 16:38:35,471 [main] INFO logger_File - User Should see text 'Your Account Has Been Created!'
+2020-11-08 16:38:37,023 [main] INFO logger_File - A) Register account for Test Environment   passed
+2020-11-08 16:38:37,026 [main] INFO logger_File - Scenario B) User should be able to log in to their account Started 
+2020-11-08 16:38:44,833 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:38:44,839 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:38:48,534 [main] INFO logger_File - User click on My Account
+2020-11-08 16:38:48,912 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:38:48,947 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 16:38:49,002 [main] INFO logger_File - Email and Password fields are displayed
+2020-11-08 16:38:49,029 [main] INFO logger_File - Login button is displayed
+2020-11-08 16:38:49,096 [main] INFO logger_File - User enter email address
+2020-11-08 16:38:49,155 [main] INFO logger_File - User enter password
+2020-11-08 16:38:49,668 [main] INFO logger_File - Password is masked
+2020-11-08 16:38:50,103 [main] INFO logger_File - User click on Login button
+2020-11-08 16:38:50,128 [main] INFO logger_File - User is on My Account Page
+2020-11-08 16:38:51,556 [main] INFO logger_File - B) User should be able to log in to their account   passed
+2020-11-08 16:38:51,559 [main] INFO logger_File - Scenario C) Logout option for Test Environment Started 
+2020-11-08 16:38:59,921 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:38:59,927 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:39:03,907 [main] INFO logger_File - User click on My Account
+2020-11-08 16:39:04,239 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:39:04,269 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 16:39:04,332 [main] INFO logger_File - User enter email address
+2020-11-08 16:39:04,389 [main] INFO logger_File - User enter password
+2020-11-08 16:39:05,587 [main] INFO logger_File - User click on Login button
+2020-11-08 16:39:08,635 [main] INFO logger_File - User click on My Account
+2020-11-08 16:39:54,330 [main] INFO logger_File - C) Logout option for Test Environment   failed
+2020-11-08 16:39:54,333 [main] INFO logger_File - Scenario D) Add Products to the Shopping Cart Started 
+2020-11-08 16:40:02,417 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:40:02,425 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:40:05,818 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:40:05,851 [main] INFO logger_File - User see list of products related to Tablet category
+2020-11-08 16:40:08,168 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:40:08,560 [main] INFO logger_File - User can see ADD TO CART button in the product details
+2020-11-08 16:40:13,659 [main] INFO logger_File - User added product to the cart
+2020-11-08 16:40:13,871 [main] INFO logger_File - User can see the message
+2020-11-08 16:40:19,265 [main] INFO logger_File - User added product to the cart
+2020-11-08 16:40:19,293 [main] INFO logger_File - User opened shopping cart
+2020-11-08 16:40:19,319 [main] INFO logger_File - Product is in the shopping cart
+2020-11-08 16:40:22,343 [main] INFO logger_File - User see that product is not repeated
+2020-11-08 16:40:23,327 [main] INFO logger_File - D) Add Products to the Shopping Cart   passed
+2020-11-08 16:40:23,329 [main] INFO logger_File - Scenario E) Remove Product from Shopping Cart Started 
+2020-11-08 16:40:31,109 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:40:31,115 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:40:32,623 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:40:33,826 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:40:40,040 [main] INFO logger_File - User added product to the cart
+2020-11-08 16:40:41,219 [main] INFO logger_File - User opened shopping cart
+2020-11-08 16:40:41,246 [main] INFO logger_File - Product is in the shopping cart
+2020-11-08 16:40:41,279 [main] INFO logger_File - RED button is displayed in the shopping cart
+2020-11-08 16:40:41,871 [main] INFO logger_File - Button is displayed in RED color
+2020-11-08 16:40:41,923 [main] INFO logger_File - User clicked on the RED button
+2020-11-08 16:40:42,376 [main] INFO logger_File - User see shopping cart is empty
+2020-11-08 16:40:43,380 [main] INFO logger_File - E) Remove Product from Shopping Cart   passed
+2020-11-08 16:40:43,386 [main] INFO logger_File - Scenario F) Add product to 'Wish List' Started 
+2020-11-08 16:40:50,502 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:40:50,509 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:40:52,455 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:40:53,785 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:40:54,276 [main] INFO logger_File - Heart Icon button is displayed under product
+2020-11-08 16:40:55,083 [main] INFO logger_File - Add to Wish List text is visible
+2020-11-08 16:40:57,390 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 16:40:57,583 [main] INFO logger_File - User can see the Green message
+2020-11-08 16:41:01,001 [main] INFO logger_File - User click on My Account
+2020-11-08 16:41:01,413 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:41:01,490 [main] INFO logger_File - User enter email address
+2020-11-08 16:41:01,559 [main] INFO logger_File - User enter password
+2020-11-08 16:41:02,448 [main] INFO logger_File - User click on Login button
+2020-11-08 16:41:02,973 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 16:41:03,649 [main] INFO logger_File - F) Add product to 'Wish List'   passed
+2020-11-08 16:41:03,655 [main] INFO logger_File - Scenario G) Remove Product From Wish List Started 
+2020-11-08 16:41:10,874 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:41:10,880 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:41:11,963 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:41:12,019 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 16:41:15,072 [main] INFO logger_File - User click on My Account
+2020-11-08 16:41:15,553 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:41:15,626 [main] INFO logger_File - User enter email address
+2020-11-08 16:41:15,693 [main] INFO logger_File - User enter password
+2020-11-08 16:41:17,171 [main] INFO logger_File - User click on Login button
+2020-11-08 16:41:17,674 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 16:41:17,705 [main] INFO logger_File - Red remove button is displayed for the Product in Wish List
+2020-11-08 16:41:19,203 [main] INFO logger_File - User removed the product from the Wish List by clicking Red X Button
+2020-11-08 16:41:19,572 [main] INFO logger_File - Item removed from wish list
+2020-11-08 16:41:20,198 [main] INFO logger_File - G) Remove Product From Wish List   passed
+2020-11-08 16:41:20,202 [main] INFO logger_File - Scenario H) User should be able to change Currency of Product prices Started 
+2020-11-08 16:41:27,696 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:41:27,702 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:41:28,995 [main] INFO logger_File - Currency button is visible
+2020-11-08 16:41:29,483 [main] INFO logger_File - US Dollars selected by default
+2020-11-08 16:41:29,531 [main] INFO logger_File - User clicked on currency button
+2020-11-08 16:41:29,619 [main] INFO logger_File - Currency drop-down menu contains all three options
+2020-11-08 16:41:31,959 [main] INFO logger_File - User changed currency to Pound Sterling
+2020-11-08 16:41:32,845 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:41:34,459 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:41:34,923 [main] INFO logger_File - Price of the product in Pound Sterling
+2020-11-08 16:41:35,338 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 16:41:38,391 [main] INFO logger_File - User click on My Account
+2020-11-08 16:41:38,853 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:41:38,925 [main] INFO logger_File - User enter email address
+2020-11-08 16:41:38,993 [main] INFO logger_File - User enter password
+2020-11-08 16:41:40,059 [main] INFO logger_File - User click on Login button
+2020-11-08 16:41:40,537 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 16:41:40,565 [main] INFO logger_File - Price of the product in the Wish List in Pound Sterling
+2020-11-08 16:41:43,975 [main] INFO logger_File - User click on My Account
+2020-11-08 16:41:44,013 [main] INFO logger_File - Logout button is displayed in My Account drop-down menu
+2020-11-08 16:41:44,822 [main] INFO logger_File - User click on Logout
+2020-11-08 16:41:48,222 [main] INFO logger_File - User click on My Account
+2020-11-08 16:41:48,558 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:41:48,629 [main] INFO logger_File - User enter email address
+2020-11-08 16:41:48,687 [main] INFO logger_File - User enter password
+2020-11-08 16:41:49,708 [main] INFO logger_File - User click on Login button
+2020-11-08 16:41:50,115 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 16:41:50,140 [main] INFO logger_File - Price of the product in the Wish List in Pound Sterling
+2020-11-08 16:41:51,120 [main] INFO logger_File - H) User should be able to change Currency of Product prices   passed
+2020-11-08 16:41:51,126 [main] INFO logger_File - Scenario I) Calculate total cost for Products in the Shopping Cart Started 
+2020-11-08 16:41:59,123 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:41:59,128 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:42:00,319 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:42:00,417 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:43:36,866 [main] INFO logger_File - I) Calculate total cost for Products in the Shopping Cart   failed
+2020-11-08 16:48:52,723 [main] INFO logger_File - Scenario C) Logout option for Test Environment Started 
+2020-11-08 16:49:02,063 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:49:02,072 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:49:05,969 [main] INFO logger_File - User click on My Account
+2020-11-08 16:49:06,346 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:49:06,378 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 16:49:06,445 [main] INFO logger_File - User enter email address
+2020-11-08 16:49:06,505 [main] INFO logger_File - User enter password
+2020-11-08 16:49:07,600 [main] INFO logger_File - User click on Login button
+2020-11-08 16:49:10,650 [main] INFO logger_File - User click on My Account
+2020-11-08 16:49:56,338 [main] INFO logger_File - C) Logout option for Test Environment   failed
+2020-11-08 16:52:11,501 [main] INFO logger_File - Scenario A) Register account for Test Environment Started 
+2020-11-08 16:52:20,206 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:52:20,216 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:53:09,753 [main] INFO logger_File - A) Register account for Test Environment   failed
+2020-11-08 16:53:09,764 [main] INFO logger_File - Scenario B) User should be able to log in to their account Started 
+2020-11-08 16:53:17,513 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:53:17,520 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:53:21,374 [main] INFO logger_File - User click on My Account
+2020-11-08 16:53:21,802 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:53:21,839 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 16:53:21,895 [main] INFO logger_File - Email and Password fields are displayed
+2020-11-08 16:53:21,925 [main] INFO logger_File - Login button is displayed
+2020-11-08 16:53:21,999 [main] INFO logger_File - User enter email address
+2020-11-08 16:53:22,064 [main] INFO logger_File - User enter password
+2020-11-08 16:53:22,515 [main] INFO logger_File - Password is masked
+2020-11-08 16:53:22,838 [main] INFO logger_File - User click on Login button
+2020-11-08 16:54:08,499 [main] INFO logger_File - B) User should be able to log in to their account   failed
+2020-11-08 16:54:08,506 [main] INFO logger_File - Scenario C) Logout option for Test Environment Started 
+2020-11-08 16:54:16,332 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:54:16,345 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:54:20,114 [main] INFO logger_File - User click on My Account
+2020-11-08 16:54:20,466 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:54:20,496 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 16:54:20,556 [main] INFO logger_File - User enter email address
+2020-11-08 16:54:20,616 [main] INFO logger_File - User enter password
+2020-11-08 16:54:21,924 [main] INFO logger_File - User click on Login button
+2020-11-08 16:54:24,979 [main] INFO logger_File - User click on My Account
+2020-11-08 16:55:10,653 [main] INFO logger_File - C) Logout option for Test Environment   failed
+2020-11-08 16:55:10,656 [main] INFO logger_File - Scenario D) Add Products to the Shopping Cart Started 
+2020-11-08 16:55:18,088 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:55:18,094 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:55:19,405 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:55:19,437 [main] INFO logger_File - User see list of products related to Tablet category
+2020-11-08 16:55:21,405 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:55:21,855 [main] INFO logger_File - User can see ADD TO CART button in the product details
+2020-11-08 16:55:26,951 [main] INFO logger_File - User added product to the cart
+2020-11-08 16:55:27,154 [main] INFO logger_File - User can see the message
+2020-11-08 16:55:32,605 [main] INFO logger_File - User added product to the cart
+2020-11-08 16:55:33,049 [main] INFO logger_File - User opened shopping cart
+2020-11-08 16:55:33,080 [main] INFO logger_File - Product is in the shopping cart
+2020-11-08 16:55:36,110 [main] INFO logger_File - User see that product is not repeated
+2020-11-08 16:55:37,083 [main] INFO logger_File - D) Add Products to the Shopping Cart   passed
+2020-11-08 16:55:37,086 [main] INFO logger_File - Scenario E) Remove Product from Shopping Cart Started 
+2020-11-08 16:55:44,282 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:55:44,289 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:55:45,906 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:55:47,455 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:55:52,957 [main] INFO logger_File - User added product to the cart
+2020-11-08 16:55:53,567 [main] INFO logger_File - User opened shopping cart
+2020-11-08 16:55:53,607 [main] INFO logger_File - Product is in the shopping cart
+2020-11-08 16:55:53,643 [main] INFO logger_File - RED button is displayed in the shopping cart
+2020-11-08 16:55:54,007 [main] INFO logger_File - Button is displayed in RED color
+2020-11-08 16:55:54,058 [main] INFO logger_File - User clicked on the RED button
+2020-11-08 16:55:55,024 [main] INFO logger_File - User see shopping cart is empty
+2020-11-08 16:55:55,995 [main] INFO logger_File - E) Remove Product from Shopping Cart   passed
+2020-11-08 16:55:56,002 [main] INFO logger_File - Scenario F) Add product to 'Wish List' Started 
+2020-11-08 16:56:03,712 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:56:03,719 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:56:07,695 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:56:09,223 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:56:09,712 [main] INFO logger_File - Heart Icon button is displayed under product
+2020-11-08 16:56:10,274 [main] INFO logger_File - Add to Wish List text is visible
+2020-11-08 16:56:10,757 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 16:56:13,342 [main] INFO logger_File - User can see the Green message
+2020-11-08 16:56:16,768 [main] INFO logger_File - User click on My Account
+2020-11-08 16:56:17,172 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:56:17,256 [main] INFO logger_File - User enter email address
+2020-11-08 16:56:17,326 [main] INFO logger_File - User enter password
+2020-11-08 16:56:18,060 [main] INFO logger_File - User click on Login button
+2020-11-08 16:57:06,270 [main] INFO logger_File - Scenario G) Remove Product From Wish List Started 
+2020-11-08 16:57:14,141 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:57:14,149 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:57:18,515 [main] INFO logger_File - Scenario H) User should be able to change Currency of Product prices Started 
+2020-11-08 16:57:25,542 [main] INFO logger_File - Retail page is opened
+2020-11-08 16:57:25,551 [main] INFO logger_File - Page title  is verified
+2020-11-08 16:57:26,567 [main] INFO logger_File - Currency button is visible
+2020-11-08 16:57:26,991 [main] INFO logger_File - US Dollars selected by default
+2020-11-08 16:57:27,044 [main] INFO logger_File - User clicked on currency button
+2020-11-08 16:57:27,125 [main] INFO logger_File - Currency drop-down menu contains all three options
+2020-11-08 16:57:28,399 [main] INFO logger_File - User changed currency to Pound Sterling
+2020-11-08 16:57:29,369 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 16:57:30,712 [main] INFO logger_File - User clicked on Product
+2020-11-08 16:57:31,188 [main] INFO logger_File - Price of the product in Pound Sterling
+2020-11-08 16:57:31,821 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 16:57:34,899 [main] INFO logger_File - User click on My Account
+2020-11-08 16:57:35,274 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 16:57:35,357 [main] INFO logger_File - User enter email address
+2020-11-08 16:57:35,424 [main] INFO logger_File - User enter password
+2020-11-08 16:57:36,081 [main] INFO logger_File - User click on Login button
+2020-11-08 16:59:52,394 [main] INFO logger_File - Scenario A) Register account for Test Environment Started 
+2020-11-08 17:00:01,683 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:00:01,693 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:00:05,596 [main] INFO logger_File - User click on My Account
+2020-11-08 17:00:06,463 [main] INFO logger_File - User clicked on Register
+2020-11-08 17:00:06,499 [main] INFO logger_File - User see Register Account form
+2020-11-08 17:00:07,001 [main] INFO logger_File - Your Personal Details section varified
+2020-11-08 17:00:07,079 [main] INFO logger_File - Password section verified
+2020-11-08 17:00:07,499 [main] INFO logger_File - User filled out Register form with information from Data Table
+2020-11-08 17:00:07,529 [main] INFO logger_File - Newsletter section present
+2020-11-08 17:00:07,553 [main] INFO logger_File - 'No' radio button selected by default
+2020-11-08 17:00:07,999 [main] INFO logger_File - User selected Yes to subscribe
+2020-11-08 17:00:08,379 [main] INFO logger_File - Continue button present
+2020-11-08 17:00:08,405 [main] INFO logger_File - Check box location is verified
+2020-11-08 17:00:08,458 [main] INFO logger_File - User checked Privacy Policy box
+2020-11-08 17:00:09,452 [main] INFO logger_File - User clicked on Continue button
+2020-11-08 17:00:14,486 [main] INFO logger_File - User Should see text 'Your Account Has Been Created!'
+2020-11-08 17:00:15,478 [main] INFO logger_File - A) Register account for Test Environment   passed
+2020-11-08 17:00:15,483 [main] INFO logger_File - Scenario B) User should be able to log in to their account Started 
+2020-11-08 17:00:23,323 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:00:23,331 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:00:27,675 [main] INFO logger_File - User click on My Account
+2020-11-08 17:00:28,053 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 17:00:28,088 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 17:00:28,136 [main] INFO logger_File - Email and Password fields are displayed
+2020-11-08 17:00:28,161 [main] INFO logger_File - Login button is displayed
+2020-11-08 17:00:28,577 [main] INFO logger_File - User enter email address
+2020-11-08 17:00:28,636 [main] INFO logger_File - User enter password
+2020-11-08 17:00:29,485 [main] INFO logger_File - Password is masked
+2020-11-08 17:00:29,988 [main] INFO logger_File - User click on Login button
+2020-11-08 17:00:30,019 [main] INFO logger_File - User is on My Account Page
+2020-11-08 17:00:31,079 [main] INFO logger_File - B) User should be able to log in to their account   passed
+2020-11-08 17:00:31,085 [main] INFO logger_File - Scenario C) Logout option for Test Environment Started 
+2020-11-08 17:00:38,358 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:00:38,366 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:00:42,265 [main] INFO logger_File - User click on My Account
+2020-11-08 17:00:42,585 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 17:00:42,620 [main] INFO logger_File - Returning customer form is displayed
+2020-11-08 17:00:42,695 [main] INFO logger_File - User enter email address
+2020-11-08 17:00:42,767 [main] INFO logger_File - User enter password
+2020-11-08 17:00:43,683 [main] INFO logger_File - User click on Login button
+2020-11-08 17:00:46,771 [main] INFO logger_File - User click on My Account
+2020-11-08 17:00:46,811 [main] INFO logger_File - Logout button is displayed in My Account drop-down menu
+2020-11-08 17:00:47,720 [main] INFO logger_File - User click on Logout
+2020-11-08 17:00:48,137 [main] INFO logger_File - Logoff message is verified
+2020-11-08 17:00:51,519 [main] INFO logger_File - User click on My Account
+2020-11-08 17:00:51,573 [main] INFO logger_File - Register and Login options are displayed in My Account DropDown Menu after User was logged off
+2020-11-08 17:00:52,219 [main] INFO logger_File - C) Logout option for Test Environment   passed
+2020-11-08 17:00:52,224 [main] INFO logger_File - Scenario D) Add Products to the Shopping Cart Started 
+2020-11-08 17:01:00,469 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:01:00,475 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:01:02,014 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 17:01:02,044 [main] INFO logger_File - User see list of products related to Tablet category
+2020-11-08 17:01:05,090 [main] INFO logger_File - User clicked on Product
+2020-11-08 17:01:05,485 [main] INFO logger_File - User can see ADD TO CART button in the product details
+2020-11-08 17:01:10,589 [main] INFO logger_File - User added product to the cart
+2020-11-08 17:01:10,793 [main] INFO logger_File - User can see the message
+2020-11-08 17:01:16,268 [main] INFO logger_File - User added product to the cart
+2020-11-08 17:01:16,688 [main] INFO logger_File - User opened shopping cart
+2020-11-08 17:01:16,713 [main] INFO logger_File - Product is in the shopping cart
+2020-11-08 17:01:19,744 [main] INFO logger_File - User see that product is not repeated
+2020-11-08 17:01:20,759 [main] INFO logger_File - D) Add Products to the Shopping Cart   passed
+2020-11-08 17:01:20,762 [main] INFO logger_File - Scenario E) Remove Product from Shopping Cart Started 
+2020-11-08 17:01:29,147 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:01:29,153 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:01:30,172 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 17:01:31,397 [main] INFO logger_File - User clicked on Product
+2020-11-08 17:01:37,916 [main] INFO logger_File - User added product to the cart
+2020-11-08 17:01:38,471 [main] INFO logger_File - User opened shopping cart
+2020-11-08 17:01:38,501 [main] INFO logger_File - Product is in the shopping cart
+2020-11-08 17:01:38,533 [main] INFO logger_File - RED button is displayed in the shopping cart
+2020-11-08 17:01:39,036 [main] INFO logger_File - Button is displayed in RED color
+2020-11-08 17:01:39,088 [main] INFO logger_File - User clicked on the RED button
+2020-11-08 17:01:39,507 [main] INFO logger_File - User see shopping cart is empty
+2020-11-08 17:01:40,501 [main] INFO logger_File - E) Remove Product from Shopping Cart   passed
+2020-11-08 17:01:40,503 [main] INFO logger_File - Scenario F) Add product to 'Wish List' Started 
+2020-11-08 17:01:48,363 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:01:48,370 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:01:49,749 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 17:01:50,758 [main] INFO logger_File - User clicked on Product
+2020-11-08 17:01:51,196 [main] INFO logger_File - Heart Icon button is displayed under product
+2020-11-08 17:01:51,756 [main] INFO logger_File - Add to Wish List text is visible
+2020-11-08 17:01:54,499 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 17:01:54,698 [main] INFO logger_File - User can see the Green message
+2020-11-08 17:01:58,131 [main] INFO logger_File - User click on My Account
+2020-11-08 17:01:58,483 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 17:01:58,570 [main] INFO logger_File - User enter email address
+2020-11-08 17:01:58,646 [main] INFO logger_File - User enter password
+2020-11-08 17:01:59,981 [main] INFO logger_File - User click on Login button
+2020-11-08 17:02:00,475 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 17:02:01,123 [main] INFO logger_File - F) Add product to 'Wish List'   passed
+2020-11-08 17:02:01,125 [main] INFO logger_File - Scenario G) Remove Product From Wish List Started 
+2020-11-08 17:02:08,545 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:02:08,552 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:02:10,203 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 17:02:10,265 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 17:02:13,329 [main] INFO logger_File - User click on My Account
+2020-11-08 17:02:13,698 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 17:02:13,778 [main] INFO logger_File - User enter email address
+2020-11-08 17:02:13,845 [main] INFO logger_File - User enter password
+2020-11-08 17:02:14,887 [main] INFO logger_File - User click on Login button
+2020-11-08 17:02:15,363 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 17:02:15,395 [main] INFO logger_File - Red remove button is displayed for the Product in Wish List
+2020-11-08 17:02:16,194 [main] INFO logger_File - User removed the product from the Wish List by clicking Red X Button
+2020-11-08 17:02:16,559 [main] INFO logger_File - Item removed from wish list
+2020-11-08 17:02:17,203 [main] INFO logger_File - G) Remove Product From Wish List   passed
+2020-11-08 17:02:17,206 [main] INFO logger_File - Scenario H) User should be able to change Currency of Product prices Started 
+2020-11-08 17:02:25,172 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:02:25,179 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:02:25,999 [main] INFO logger_File - Currency button is visible
+2020-11-08 17:02:26,413 [main] INFO logger_File - US Dollars selected by default
+2020-11-08 17:02:26,460 [main] INFO logger_File - User clicked on currency button
+2020-11-08 17:02:26,542 [main] INFO logger_File - Currency drop-down menu contains all three options
+2020-11-08 17:02:28,798 [main] INFO logger_File - User changed currency to Pound Sterling
+2020-11-08 17:02:29,673 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 17:02:30,725 [main] INFO logger_File - User clicked on Product
+2020-11-08 17:02:31,190 [main] INFO logger_File - Price of the product in Pound Sterling
+2020-11-08 17:02:31,610 [main] INFO logger_File - User added product to the Wish List
+2020-11-08 17:02:34,663 [main] INFO logger_File - User click on My Account
+2020-11-08 17:02:35,012 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 17:02:35,097 [main] INFO logger_File - User enter email address
+2020-11-08 17:02:35,166 [main] INFO logger_File - User enter password
+2020-11-08 17:02:37,038 [main] INFO logger_File - User click on Login button
+2020-11-08 17:02:37,494 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 17:02:37,522 [main] INFO logger_File - Price of the product in the Wish List in Pound Sterling
+2020-11-08 17:02:41,101 [main] INFO logger_File - User click on My Account
+2020-11-08 17:02:41,137 [main] INFO logger_File - Logout button is displayed in My Account drop-down menu
+2020-11-08 17:02:41,890 [main] INFO logger_File - User click on Logout
+2020-11-08 17:02:48,021 [main] INFO logger_File - User click on My Account
+2020-11-08 17:02:48,376 [main] INFO logger_File - Login button is displayed in My Account manu and user clicked on it
+2020-11-08 17:02:48,460 [main] INFO logger_File - User enter email address
+2020-11-08 17:02:48,528 [main] INFO logger_File - User enter password
+2020-11-08 17:02:49,763 [main] INFO logger_File - User click on Login button
+2020-11-08 17:02:50,196 [main] INFO logger_File - User opened Wish List and can see the added product
+2020-11-08 17:02:50,222 [main] INFO logger_File - Price of the product in the Wish List in Pound Sterling
+2020-11-08 17:02:51,221 [main] INFO logger_File - H) User should be able to change Currency of Product prices   passed
+2020-11-08 17:02:51,223 [main] INFO logger_File - Scenario I) Calculate total cost for Products in the Shopping Cart Started 
+2020-11-08 17:02:59,830 [main] INFO logger_File - Retail page is opened
+2020-11-08 17:02:59,837 [main] INFO logger_File - Page title  is verified
+2020-11-08 17:03:00,817 [main] INFO logger_File - User clicked on Tablets menu
+2020-11-08 17:03:02,176 [main] INFO logger_File - User clicked on Product
+2020-11-08 17:03:07,711 [main] INFO logger_File - User added product to the cart
+2020-11-08 17:03:12,811 [main] INFO logger_File - User added product to the cart
+2020-11-08 17:03:13,223 [main] INFO logger_File - User opened shopping cart
+2020-11-08 17:03:16,248 [main] INFO logger_File - User see that product is not repeated
+2020-11-08 17:03:16,634 [main] INFO logger_File - Unit Price and Total columns displayed
+2020-11-08 17:03:22,712 [main] INFO logger_File - Total price is calculated by Quantity
+2020-11-08 17:03:23,071 [main] INFO logger_File - User can see What would you like to do next? section.
+2020-11-08 17:03:23,418 [main] INFO logger_File - User can see Use Coupon code section
+2020-11-08 17:03:23,881 [main] INFO logger_File - User entered shipping info
+2020-11-08 17:03:24,888 [main] INFO logger_File - User got quotes for Shipping Rate 
+2020-11-08 17:03:25,305 [main] INFO logger_File - User added shipping rate to the order
+2020-11-08 17:03:25,359 [main] INFO logger_File - User applied shipping rate
+2020-11-08 17:03:25,852 [main] INFO logger_File - Total price to checkout calculated correctly
+2020-11-08 17:03:25,877 [main] INFO logger_File - Checkout button is present
+2020-11-08 17:03:27,035 [main] INFO logger_File - I) Calculate total cost for Products in the Shopping Cart   passed
