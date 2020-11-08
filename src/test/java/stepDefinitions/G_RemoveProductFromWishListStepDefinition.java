@@ -26,6 +26,7 @@ public class G_RemoveProductFromWishListStepDefinition extends Base {
 	WebDriverUtility.screenShot();
 	}
 	// This step was impossible to automate as Message is not present in UI
+	//was commented in feature file
 	@Then("^User see '(.+)'  message and select 'Yes'$")
 	public void user_see_Are_you_sure_message_and_select_Yes(String message) throws Throwable {
 	 Assert.assertTrue(productMenuPageObj.getTextOfThePage().contains(message));
