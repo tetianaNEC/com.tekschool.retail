@@ -11,7 +11,7 @@ import pageObjects.MyAccountPageObj;
 import utilities.WebDriverUtility;
 
 public class B_LoginStepDefinition extends Base {
-	
+
 	MyAccountPageObj myAccountPageObj = new MyAccountPageObj();
 	LoginPageObj loginPageObj = new LoginPageObj();
 
@@ -43,10 +43,10 @@ public class B_LoginStepDefinition extends Base {
 	@Then("^And User enter username '(.+)' and password '(.+)'$")
 	public void and_User_enter_username_tom_test_com_and_password_tomtom(String userName, String password)
 			throws Throwable {
-		Thread.sleep(3000);
+
 		loginPageObj.enterEmailAddress(userName);
 		logger.info("User entered userName");
-		Thread.sleep(3000);
+
 		loginPageObj.enterPassword(password);
 		logger.info("User entered password");
 		WebDriverUtility.screenShot();

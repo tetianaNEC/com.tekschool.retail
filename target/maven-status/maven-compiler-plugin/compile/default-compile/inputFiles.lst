@@ -1,10 +1,10 @@
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\LogoutPageobject.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\ShoppingCartPageObj.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\CurrencyPageObj.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\LoginPageObj.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\ProductMenuPageObj.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\utilities\DataBaseUtility.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\MyAccountPageObj.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\pageObjects\RegisterFormPageObj.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\utilities\WebDriverUtility.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\main\java\core\Base.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\utilities\DataBaseUtility.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\core\Base.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\CurrencyPageObj.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\ProductMenuPageObj.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\utilities\WebDriverUtility.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\RegisterFormPageObj.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\ShoppingCartPageObj.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\MyAccountPageObj.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\LoginPageObj.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\main\java\pageObjects\LogoutPageobject.java

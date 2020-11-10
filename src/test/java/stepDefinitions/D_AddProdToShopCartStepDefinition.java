@@ -46,10 +46,11 @@ public class D_AddProdToShopCartStepDefinition extends Base {
 	@When("^User clicks on 'Add to Cart' button$")
 	public void user_clicks_on_Add_to_Cart_button_two_times() throws Throwable {
 		try {
-			WebDriverUtility.wait(5000);
+			WebDriverUtility.wait(6000);
 			productMenuPageObj.addProductToTheCart();
 		} catch (NoSuchElementException e) {
 		e.printStackTrace();
+		productMenuPageObj.addProductToTheCart();
 		}
 		
 		logger.info("User added product to the cart");
@@ -70,7 +71,7 @@ public class D_AddProdToShopCartStepDefinition extends Base {
 	}
 	@Then("^Verify 'Samsung Galaxy Tab 10.1' in the Shopping cart$")
 	public void verify_tablet_in_the_shopping_cart() throws Throwable {
-		Assert.assertTrue(productMenuPageObj.isSamsungTabletDisplayed());
+		Assert.assertTrue(productMenuPageObj.isSamsungProductDisplayed());
 		logger.info("Product is in the shopping cart");
 	}
 

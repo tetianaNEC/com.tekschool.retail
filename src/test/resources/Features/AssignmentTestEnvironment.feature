@@ -12,7 +12,7 @@ Scenario: A) Register account for Test Environment
 	Then User fill out Register form with information below 
 	
 		|firstName|lastName|email|phone|password|
-		|Loren|Mone|lorenn@gmail.com|1212121212|loren123|
+		|Loren|Mone|lory@gmail.com|1212121212|loren123|
 	And  Verify 'Newsletter' section present 
 	And  Verify 'No' Radio button is selected by default 
 	Then User selects 'Yes' to subscribe 
@@ -28,7 +28,7 @@ Scenario: B) User should be able to log in to their account
 	And Verify Login form Returning customer is displayed 
 	And Verify Email and Password fields are present 
 	And Verify Login button is displayed 
-	And User enter username 'loren@gmail.com' and password 'loren123' 
+	And User enter username 'lory@gmail.com' and password 'loren123' 
 	And Verify password is hidden when typed in 
 	And User click on Login button 
 	Then User is directed to My Account page once logged in 
@@ -37,7 +37,7 @@ Scenario: C) Logout option for Test Environment
 	When User click  on MyAccount 
 	When Verify that Login sub-option in My Account menu and click on Login 
 	And  Verify Login form Returning customer is displayed 
-	And User enter username 'loren@gmail.com' and password 'loren123' 
+	And User enter username 'lory@gmail.com' and password 'loren123' 
 	And User click on Login button 
 	And  User click  on MyAccount 
 	And  Verify that Logout sub-option is displayed in My Account drop-down menu 
@@ -83,7 +83,7 @@ Scenario: F) Add product to 'Wish List'
 	And User see the message 'You must login or create an account to save Samsung Galaxy Tab 10.1 to your wish list!' 
 	When User click  on MyAccount 
 	And  Verify that Login sub-option in My Account menu and click on Login 
-	And User enter username 'loren@gmail.com' and password 'loren123' 
+	And User enter username 'lory@gmail.com' and password 'loren123' 
 	And User click on Login button 
 	And User click on Menu 'Wish List' and user can see the added product 
 	
@@ -94,7 +94,7 @@ Scenario: G) Remove Product From Wish List
 	And  User click on Heart icon 
 	And  User click  on MyAccount 
 	And  Verify that Login sub-option in My Account menu and click on Login 
-	And User enter username 'loren@gmail.com' and password 'loren123' 
+	And User enter username 'lory@gmail.com' and password 'loren123' 
 	And  User click on Login button 
 	Then  User click on Menu 'Wish List' and user can see the added product 
 	And  User can see a Red X button for the product 
@@ -116,7 +116,7 @@ Scenario: H) User should be able to change Currency of Product prices
 	And  User click on Heart icon 
 	And  User click  on MyAccount 
 	And  Verify that Login sub-option in My Account menu and click on Login 
-	And User enter username 'loren@gmail.com' and password 'loren123' 
+	And User enter username 'lory@gmail.com' and password 'loren123' 
 	And  User click on Login button 
 	Then  User click on Menu 'Wish List' and user can see the added product 
 	And Verify Price of the product in Pound Sterling in the Wish List 
@@ -125,7 +125,7 @@ Scenario: H) User should be able to change Currency of Product prices
 	Then User click on Logout 
 	And  User click  on MyAccount 
 	And  Verify that Login sub-option in My Account menu and click on Login 
-	And User enter username 'loren@gmail.com' and password 'loren123' 
+	And User enter username 'lory@gmail.com' and password 'loren123' 
 	And  User click on Login button 
 	Then  User click on Menu 'Wish List' and user can see the added product 
 	And Verify Price of the product in Pound Sterling in the Wish List 

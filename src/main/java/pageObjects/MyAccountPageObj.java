@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import core.Base;
+import utilities.WebDriverUtility;
 public class MyAccountPageObj extends Base {
 	public MyAccountPageObj() {
 		PageFactory.initElements(driver, this);
@@ -20,24 +21,20 @@ public class MyAccountPageObj extends Base {
 	private List<WebElement> accountMenuElements;
 	
 	public boolean isMyAccountDisplayed() {
-		if (myAccountText.isDisplayed())
-			return true;
-		else
-			return false;
+		return WebDriverUtility.isElementDisplayed(myAccountText);
+		
 	}
 	public boolean isMyOrdersDisplayed() {
-		if (myOrdersText.isDisplayed())
-			return true;
-		else
-			return false;
+		return WebDriverUtility.isElementDisplayed(myOrdersText);
+		
 	}
 	public boolean isLogoutButtonDisplayed() {
-		return logoutButton.isDisplayed();
+		return WebDriverUtility.isElementDisplayed(logoutButton);
 		
 		}
 	
 	public void clickOnLogoutButton() {
-		logoutButton.click();
+		WebDriverUtility.clickOnElement(logoutButton);
 		
 	}
 

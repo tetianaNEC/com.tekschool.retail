@@ -81,6 +81,7 @@ public class LoginPageObj extends Base {
 	}
 
 	public void enterEmailAddress(String emailAddress) {
+		WebDriverUtility.wait(2000);
 		emailField.sendKeys(emailAddress);
 	}
 
@@ -89,6 +90,7 @@ public class LoginPageObj extends Base {
 	}
 
 	public void enterPassword(String password) {
+		WebDriverUtility.wait(2000);
 		passwordField.sendKeys(password);
 
 	}

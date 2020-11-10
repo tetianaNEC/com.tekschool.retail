@@ -1,14 +1,14 @@
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\runner\TestRunner.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\E_RemoveProdFromShopCartStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\SqlQueryStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\A_RegisterAccountStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\C_LogOutStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\G_RemoveProductFromWishListStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\B_LoginStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\H_ChangeCurrencyStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\RegisterFormStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\D_AddProdToShopCartStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\I_CalculateTotalCostStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\LoginTestStepDefinition.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\Initializer.java
-C:\Users\tetiana\Desktop\Java projects\com.tekschool.retail\src\test\java\stepDefinitions\F_AddProductToWishListStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\C_LogOutStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\B_LoginStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\G_RemoveProductFromWishListStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\A_RegisterAccountStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\D_AddProdToShopCartStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\H_ChangeCurrencyStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\E_RemoveProdFromShopCartStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\RegisterFormStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\F_AddProductToWishListStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\Initializer.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\LoginTestStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\SqlQueryStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\stepDefinitions\I_CalculateTotalCostStepDefinition.java
+C:\Users\tetiana\git\repository\com.tekschool.retail\src\test\java\runner\TestRunner.java
