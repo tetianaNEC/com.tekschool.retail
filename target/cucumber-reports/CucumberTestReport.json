@@ -11,8 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2801351500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "User is on Retail website",
@@ -27,8 +26,9 @@
         "before": [
           {
             "result": {
-              "duration": 6581674200,
-              "status": "passed"
+              "duration": 8466384600,
+              "error_message": "org.openqa.selenium.WebDriverException: Access is denied. (os error 5)\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: FirefoxDriver\nremote stacktrace: \r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:142)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:120)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:98)\r\n\tat stepDefinitions.Initializer.beforeHooks(Initializer.java:41)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.beforeHooks(Scenario)"
@@ -42,8 +42,9 @@
         "after": [
           {
             "result": {
-              "duration": 678464300,
-              "status": "passed"
+              "duration": 102400,
+              "error_message": "java.lang.NullPointerException\r\n\tat core.Base.tearDown(Base.java:102)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -55,8 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3064939000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "User click  on MyAccount",
@@ -67,8 +67,7 @@
           },
           {
             "result": {
-              "duration": 910225900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "If Register option is displayed User click on Register",
@@ -79,8 +78,7 @@
           },
           {
             "result": {
-              "duration": 415075600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "User should see Register Account form",
@@ -91,8 +89,7 @@
           },
           {
             "result": {
-              "duration": 132426700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "User should see Your Personal Details section with fields: \u0027First Name\u0027, \u0027Last Name\u0027, \u0027E-Mail\u0027,\u0027Telephone\u0027",
@@ -103,8 +100,7 @@
           },
           {
             "result": {
-              "duration": 76365400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User should see Your Password section: \u0027Password\u0027 and \u0027Password Confirm\u0027",
@@ -115,8 +111,7 @@
           },
           {
             "result": {
-              "duration": 403431100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User fill out Register form with information below",
@@ -138,7 +133,7 @@
                 "cells": [
                   "Loren",
                   "Mone",
-                  "loro@gmail.com",
+                  "karen@gmail.com",
                   "1212121212",
                   "loren123"
                 ],
@@ -149,8 +144,7 @@
           },
           {
             "result": {
-              "duration": 34304800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "Verify \u0027Newsletter\u0027 section present",
@@ -161,8 +155,7 @@
           },
           {
             "result": {
-              "duration": 368679700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Verify \u0027No\u0027 Radio button is selected by default",
@@ -173,8 +166,7 @@
           },
           {
             "result": {
-              "duration": 465661700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "User selects \u0027Yes\u0027 to subscribe",
@@ -185,8 +177,7 @@
           },
           {
             "result": {
-              "duration": 32132800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "Verify \u0027Continue\u0027 button is displayed",
@@ -197,8 +188,7 @@
           },
           {
             "result": {
-              "duration": 23476100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "Verify check box \u0027I have read and agree to the Privacy Policy\u0027 next to \u0027Continue\u0027 button",
@@ -209,8 +199,7 @@
           },
           {
             "result": {
-              "duration": 379894200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "Click on check box",
@@ -221,8 +210,7 @@
           },
           {
             "result": {
-              "duration": 551469100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "Click on \u0027Continue\u0027 button",
@@ -233,8 +221,7 @@
           },
           {
             "result": {
-              "duration": 5386592700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "Text should be displayed \u0027Your Account Has Been Created!\u0027",
@@ -260,7 +247,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3316661600,
+              "duration": 6666121400,
               "status": "passed"
             },
             "line": 5,
@@ -276,7 +263,7 @@
         "before": [
           {
             "result": {
-              "duration": 5777523500,
+              "duration": 31169030300,
               "status": "passed"
             },
             "match": {
@@ -291,8 +278,9 @@
         "after": [
           {
             "result": {
-              "duration": 655296800,
-              "status": "passed"
+              "duration": 1917697900,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 20972, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 108080a2-537f-492a-9347-fd03919e6c76\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -304,7 +292,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3057736500,
+              "duration": 3605834600,
               "status": "passed"
             },
             "line": 26,
@@ -316,7 +304,7 @@
           },
           {
             "result": {
-              "duration": 349799200,
+              "duration": 410052000,
               "status": "passed"
             },
             "line": 27,
@@ -328,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 29729200,
+              "duration": 31892400,
               "status": "passed"
             },
             "line": 28,
@@ -340,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 50785800,
+              "duration": 49409500,
               "status": "passed"
             },
             "line": 29,
@@ -352,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 26430000,
+              "duration": 24048400,
               "status": "passed"
             },
             "line": 30,
@@ -364,20 +352,20 @@
           },
           {
             "result": {
-              "duration": 4655550100,
+              "duration": 4478060800,
               "status": "passed"
             },
             "line": 31,
-            "name": "User enter username \u0027loro@gmail.com\u0027 and password \u0027loren123\u0027",
+            "name": "User enter username \u0027karen@gmail.com\u0027 and password \u0027loren123\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "loro@gmail.com",
+                  "val": "karen@gmail.com",
                   "offset": 21
                 },
                 {
                   "val": "loren123",
-                  "offset": 51
+                  "offset": 52
                 }
               ],
               "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
@@ -386,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 21561300,
+              "duration": 23604700,
               "status": "passed"
             },
             "line": 32,
@@ -398,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 493728000,
+              "duration": 489996500,
               "status": "passed"
             },
             "line": 33,
@@ -410,7 +398,7 @@
           },
           {
             "result": {
-              "duration": 395164100,
+              "duration": 119986500,
               "status": "passed"
             },
             "line": 34,
@@ -431,7 +419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3269866100,
+              "duration": 3614797000,
               "status": "passed"
             },
             "line": 5,
@@ -447,7 +435,7 @@
         "before": [
           {
             "result": {
-              "duration": 5398606200,
+              "duration": 5924318800,
               "status": "passed"
             },
             "match": {
@@ -462,8 +450,9 @@
         "after": [
           {
             "result": {
-              "duration": 638361500,
-              "status": "passed"
+              "duration": 2401326600,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 16824, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 692edd3c-94c3-4212-a91e-1d41620c7cce\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -475,7 +464,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3067468600,
+              "duration": 3254356100,
               "status": "passed"
             },
             "line": 37,
@@ -487,7 +476,7 @@
           },
           {
             "result": {
-              "duration": 498205400,
+              "duration": 3064230800,
               "status": "passed"
             },
             "line": 38,
@@ -499,7 +488,7 @@
           },
           {
             "result": {
-              "duration": 32266500,
+              "duration": 44178400,
               "status": "passed"
             },
             "line": 39,
@@ -511,20 +500,20 @@
           },
           {
             "result": {
-              "duration": 4555503000,
+              "duration": 4204808900,
               "status": "passed"
             },
             "line": 40,
-            "name": "User enter username \u0027loro@gmail.com\u0027 and password \u0027loren123\u0027",
+            "name": "User enter username \u0027karen@gmail.com\u0027 and password \u0027loren123\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "loro@gmail.com",
+                  "val": "karen@gmail.com",
                   "offset": 21
                 },
                 {
                   "val": "loren123",
-                  "offset": 51
+                  "offset": 52
                 }
               ],
               "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
@@ -533,7 +522,7 @@
           },
           {
             "result": {
-              "duration": 738732000,
+              "duration": 462780800,
               "status": "passed"
             },
             "line": 41,
@@ -545,7 +534,7 @@
           },
           {
             "result": {
-              "duration": 3056730100,
+              "duration": 3239052800,
               "status": "passed"
             },
             "line": 42,
@@ -557,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 403890100,
+              "duration": 125590900,
               "status": "passed"
             },
             "line": 43,
@@ -569,7 +558,7 @@
           },
           {
             "result": {
-              "duration": 811797800,
+              "duration": 562334200,
               "status": "passed"
             },
             "line": 44,
@@ -581,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 741344400,
+              "duration": 116074800,
               "status": "passed"
             },
             "line": 45,
@@ -599,7 +588,7 @@
           },
           {
             "result": {
-              "duration": 3051229100,
+              "duration": 3249919100,
               "status": "passed"
             },
             "line": 46,
@@ -611,7 +600,7 @@
           },
           {
             "result": {
-              "duration": 71436100,
+              "duration": 61363100,
               "status": "passed"
             },
             "line": 47,
@@ -632,7 +621,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4631584800,
+              "duration": 3620026100,
               "status": "passed"
             },
             "line": 5,
@@ -648,7 +637,7 @@
         "before": [
           {
             "result": {
-              "duration": 5369216900,
+              "duration": 6277469300,
               "status": "passed"
             },
             "match": {
@@ -663,8 +652,9 @@
         "after": [
           {
             "result": {
-              "duration": 632256500,
-              "status": "passed"
+              "duration": 1469000300,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24876, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 915f0ef4-90e3-4eb2-81db-2bb1bfea44ef\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -676,7 +666,7 @@
         "steps": [
           {
             "result": {
-              "duration": 435980100,
+              "duration": 583326000,
               "status": "passed"
             },
             "line": 52,
@@ -688,7 +678,7 @@
           },
           {
             "result": {
-              "duration": 569647600,
+              "duration": 131650000,
               "status": "passed"
             },
             "line": 53,
@@ -700,7 +690,7 @@
           },
           {
             "result": {
-              "duration": 2324758400,
+              "duration": 1650471600,
               "status": "passed"
             },
             "line": 54,
@@ -712,7 +702,7 @@
           },
           {
             "result": {
-              "duration": 53431600,
+              "duration": 31036700,
               "status": "passed"
             },
             "line": 55,
@@ -724,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 6104226400,
+              "duration": 6288957500,
               "status": "passed"
             },
             "line": 56,
@@ -736,7 +726,7 @@
           },
           {
             "result": {
-              "duration": 584818800,
+              "duration": 119920800,
               "status": "passed"
             },
             "line": 57,
@@ -754,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 6072430100,
+              "duration": 6264988800,
               "status": "passed"
             },
             "line": 58,
@@ -766,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 484740300,
+              "duration": 412916600,
               "status": "passed"
             },
             "line": 59,
@@ -778,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 74555100,
+              "duration": 54936900,
               "status": "passed"
             },
             "line": 60,
@@ -790,7 +780,7 @@
           },
           {
             "result": {
-              "duration": 3364574800,
+              "duration": 3117650400,
               "status": "passed"
             },
             "line": 61,
@@ -811,7 +801,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4706372300,
+              "duration": 3470961600,
               "status": "passed"
             },
             "line": 5,
@@ -827,7 +817,7 @@
         "before": [
           {
             "result": {
-              "duration": 6160351200,
+              "duration": 5284458000,
               "status": "passed"
             },
             "match": {
@@ -842,8 +832,9 @@
         "after": [
           {
             "result": {
-              "duration": 649561700,
-              "status": "passed"
+              "duration": 2001432600,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 2400, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2aa4d2ed-8bfc-4b97-af47-b64983f0a52a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -855,7 +846,7 @@
         "steps": [
           {
             "result": {
-              "duration": 676552400,
+              "duration": 432879900,
               "status": "passed"
             },
             "comments": [
@@ -873,7 +864,7 @@
           },
           {
             "result": {
-              "duration": 1603646500,
+              "duration": 1598884100,
               "status": "passed"
             },
             "line": 66,
@@ -885,7 +876,7 @@
           },
           {
             "result": {
-              "duration": 6103322700,
+              "duration": 6282536800,
               "status": "passed"
             },
             "line": 67,
@@ -897,7 +888,7 @@
           },
           {
             "result": {
-              "duration": 542744900,
+              "duration": 415796000,
               "status": "passed"
             },
             "line": 68,
@@ -909,7 +900,7 @@
           },
           {
             "result": {
-              "duration": 55895400,
+              "duration": 58637800,
               "status": "passed"
             },
             "line": 69,
@@ -921,7 +912,7 @@
           },
           {
             "result": {
-              "duration": 454965700,
+              "duration": 237765100,
               "status": "passed"
             },
             "line": 70,
@@ -933,7 +924,7 @@
           },
           {
             "result": {
-              "duration": 23983700,
+              "duration": 15715500,
               "status": "passed"
             },
             "line": 71,
@@ -951,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 54015000,
+              "duration": 471306800,
               "status": "passed"
             },
             "line": 72,
@@ -963,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 759992200,
+              "duration": 182841900,
               "status": "passed"
             },
             "comments": [
@@ -990,7 +981,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4835300200,
+              "duration": 3383569100,
               "status": "passed"
             },
             "line": 5,
@@ -1006,7 +997,7 @@
         "before": [
           {
             "result": {
-              "duration": 5351531200,
+              "duration": 6229577200,
               "status": "passed"
             },
             "match": {
@@ -1021,8 +1012,9 @@
         "after": [
           {
             "result": {
-              "duration": 666813800,
-              "status": "passed"
+              "duration": 2257216700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24264, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 78cb7426-1540-432b-9622-b106b57cc004\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -1034,7 +1026,7 @@
         "steps": [
           {
             "result": {
-              "duration": 434912300,
+              "duration": 479798900,
               "status": "passed"
             },
             "line": 78,
@@ -1046,7 +1038,7 @@
           },
           {
             "result": {
-              "duration": 2394028500,
+              "duration": 1619580800,
               "status": "passed"
             },
             "line": 79,
@@ -1058,7 +1050,7 @@
           },
           {
             "result": {
-              "duration": 391626200,
+              "duration": 147897800,
               "status": "passed"
             },
             "line": 80,
@@ -1070,7 +1062,7 @@
           },
           {
             "result": {
-              "duration": 661691200,
+              "duration": 320836300,
               "status": "passed"
             },
             "line": 81,
@@ -1088,7 +1080,7 @@
           },
           {
             "result": {
-              "duration": 47171400,
+              "duration": 224764600,
               "status": "passed"
             },
             "line": 82,
@@ -1100,7 +1092,7 @@
           },
           {
             "result": {
-              "duration": 550884900,
+              "duration": 129235900,
               "status": "passed"
             },
             "line": 83,
@@ -1118,7 +1110,7 @@
           },
           {
             "result": {
-              "duration": 3074953200,
+              "duration": 3234249800,
               "status": "passed"
             },
             "line": 84,
@@ -1130,7 +1122,7 @@
           },
           {
             "result": {
-              "duration": 353249300,
+              "duration": 604200300,
               "status": "passed"
             },
             "line": 85,
@@ -1142,20 +1134,20 @@
           },
           {
             "result": {
-              "duration": 4502714500,
+              "duration": 4192738900,
               "status": "passed"
             },
             "line": 86,
-            "name": "User enter username \u0027loro@gmail.com\u0027 and password \u0027loren123\u0027",
+            "name": "User enter username \u0027karen@gmail.com\u0027 and password \u0027loren123\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "loro@gmail.com",
+                  "val": "karen@gmail.com",
                   "offset": 21
                 },
                 {
                   "val": "loren123",
-                  "offset": 51
+                  "offset": 52
                 }
               ],
               "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
@@ -1164,7 +1156,7 @@
           },
           {
             "result": {
-              "duration": 503195700,
+              "duration": 1090683900,
               "status": "passed"
             },
             "line": 87,
@@ -1176,7 +1168,7 @@
           },
           {
             "result": {
-              "duration": 485527700,
+              "duration": 464512400,
               "status": "passed"
             },
             "line": 88,
@@ -1197,7 +1189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2741071200,
+              "duration": 4148929600,
               "status": "passed"
             },
             "line": 5,
@@ -1213,7 +1205,7 @@
         "before": [
           {
             "result": {
-              "duration": 5569848400,
+              "duration": 4717509000,
               "status": "passed"
             },
             "match": {
@@ -1228,8 +1220,9 @@
         "after": [
           {
             "result": {
-              "duration": 650838300,
-              "status": "passed"
+              "duration": 1904796700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8380, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0e18e579-1919-43a1-a47b-487be185eabb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -1241,7 +1234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 419667700,
+              "duration": 525971000,
               "status": "passed"
             },
             "comments": [
@@ -1259,7 +1252,7 @@
           },
           {
             "result": {
-              "duration": 60585700,
+              "duration": 237122100,
               "status": "passed"
             },
             "line": 94,
@@ -1271,7 +1264,7 @@
           },
           {
             "result": {
-              "duration": 3054170300,
+              "duration": 3235777700,
               "status": "passed"
             },
             "line": 95,
@@ -1283,7 +1276,7 @@
           },
           {
             "result": {
-              "duration": 361949400,
+              "duration": 350850400,
               "status": "passed"
             },
             "line": 96,
@@ -1295,20 +1288,20 @@
           },
           {
             "result": {
-              "duration": 4524539000,
+              "duration": 4256615700,
               "status": "passed"
             },
             "line": 97,
-            "name": "User enter username \u0027loro@gmail.com\u0027 and password \u0027loren123\u0027",
+            "name": "User enter username \u0027karen@gmail.com\u0027 and password \u0027loren123\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "loro@gmail.com",
+                  "val": "karen@gmail.com",
                   "offset": 21
                 },
                 {
                   "val": "loren123",
-                  "offset": 51
+                  "offset": 52
                 }
               ],
               "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
@@ -1317,7 +1310,7 @@
           },
           {
             "result": {
-              "duration": 799675000,
+              "duration": 501487700,
               "status": "passed"
             },
             "line": 98,
@@ -1329,7 +1322,7 @@
           },
           {
             "result": {
-              "duration": 473518100,
+              "duration": 452942100,
               "status": "passed"
             },
             "line": 99,
@@ -1341,7 +1334,7 @@
           },
           {
             "result": {
-              "duration": 384542500,
+              "duration": 118436900,
               "status": "passed"
             },
             "line": 100,
@@ -1353,7 +1346,7 @@
           },
           {
             "result": {
-              "duration": 832498000,
+              "duration": 774961600,
               "status": "passed"
             },
             "line": 101,
@@ -1365,7 +1358,7 @@
           },
           {
             "result": {
-              "duration": 28789200,
+              "duration": 25970600,
               "status": "passed"
             },
             "comments": [
@@ -1392,7 +1385,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3307163200,
+              "duration": 3508177600,
               "status": "passed"
             },
             "line": 5,
@@ -1408,7 +1401,7 @@
         "before": [
           {
             "result": {
-              "duration": 5618740200,
+              "duration": 5168459600,
               "status": "passed"
             },
             "match": {
@@ -1423,8 +1416,9 @@
         "after": [
           {
             "result": {
-              "duration": 673070600,
-              "status": "passed"
+              "duration": 2016653600,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7972, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6b59d2e3-74ef-438d-b183-ec2d7a26d7c6\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -1436,7 +1430,7 @@
         "steps": [
           {
             "result": {
-              "duration": 433147800,
+              "duration": 181626100,
               "status": "passed"
             },
             "line": 108,
@@ -1448,7 +1442,7 @@
           },
           {
             "result": {
-              "duration": 29391300,
+              "duration": 24022500,
               "status": "passed"
             },
             "line": 109,
@@ -1460,7 +1454,7 @@
           },
           {
             "result": {
-              "duration": 44943000,
+              "duration": 237620000,
               "status": "passed"
             },
             "line": 110,
@@ -1472,7 +1466,7 @@
           },
           {
             "result": {
-              "duration": 510866100,
+              "duration": 210687800,
               "status": "passed"
             },
             "line": 111,
@@ -1484,7 +1478,7 @@
           },
           {
             "result": {
-              "duration": 1002967200,
+              "duration": 700300800,
               "status": "passed"
             },
             "line": 112,
@@ -1496,7 +1490,7 @@
           },
           {
             "result": {
-              "duration": 1429864700,
+              "duration": 819773800,
               "status": "passed"
             },
             "line": 113,
@@ -1508,7 +1502,7 @@
           },
           {
             "result": {
-              "duration": 1740697400,
+              "duration": 2110257300,
               "status": "passed"
             },
             "line": 114,
@@ -1520,7 +1514,7 @@
           },
           {
             "result": {
-              "duration": 405331100,
+              "duration": 137441600,
               "status": "passed"
             },
             "line": 115,
@@ -1532,7 +1526,7 @@
           },
           {
             "result": {
-              "duration": 58801600,
+              "duration": 241274100,
               "status": "passed"
             },
             "line": 116,
@@ -1544,7 +1538,7 @@
           },
           {
             "result": {
-              "duration": 3073500300,
+              "duration": 3242274900,
               "status": "passed"
             },
             "line": 117,
@@ -1556,7 +1550,7 @@
           },
           {
             "result": {
-              "duration": 682264900,
+              "duration": 439201300,
               "status": "passed"
             },
             "line": 118,
@@ -1568,20 +1562,20 @@
           },
           {
             "result": {
-              "duration": 4848567300,
+              "duration": 4221492200,
               "status": "passed"
             },
             "line": 119,
-            "name": "User enter username \u0027loro@gmail.com\u0027 and password \u0027loren123\u0027",
+            "name": "User enter username \u0027karen@gmail.com\u0027 and password \u0027loren123\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "loro@gmail.com",
+                  "val": "karen@gmail.com",
                   "offset": 21
                 },
                 {
                   "val": "loren123",
-                  "offset": 51
+                  "offset": 52
                 }
               ],
               "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
@@ -1590,7 +1584,7 @@
           },
           {
             "result": {
-              "duration": 532263700,
+              "duration": 512152800,
               "status": "passed"
             },
             "line": 120,
@@ -1602,7 +1596,7 @@
           },
           {
             "result": {
-              "duration": 535040800,
+              "duration": 433392100,
               "status": "passed"
             },
             "line": 121,
@@ -1614,7 +1608,7 @@
           },
           {
             "result": {
-              "duration": 899021900,
+              "duration": 94054800,
               "status": "passed"
             },
             "line": 122,
@@ -1626,7 +1620,7 @@
           },
           {
             "result": {
-              "duration": 3087880900,
+              "duration": 3235090200,
               "status": "passed"
             },
             "line": 123,
@@ -1638,7 +1632,7 @@
           },
           {
             "result": {
-              "duration": 381798000,
+              "duration": 115587400,
               "status": "passed"
             },
             "line": 124,
@@ -1650,7 +1644,7 @@
           },
           {
             "result": {
-              "duration": 814852200,
+              "duration": 525826400,
               "status": "passed"
             },
             "line": 125,
@@ -1662,7 +1656,7 @@
           },
           {
             "result": {
-              "duration": 3054046600,
+              "duration": 3260341500,
               "status": "passed"
             },
             "line": 126,
@@ -1674,7 +1668,7 @@
           },
           {
             "result": {
-              "duration": 328107200,
+              "duration": 329768000,
               "status": "passed"
             },
             "line": 127,
@@ -1686,20 +1680,20 @@
           },
           {
             "result": {
-              "duration": 4505805200,
+              "duration": 4176276000,
               "status": "passed"
             },
             "line": 128,
-            "name": "User enter username \u0027loro@gmail.com\u0027 and password \u0027loren123\u0027",
+            "name": "User enter username \u0027karen@gmail.com\u0027 and password \u0027loren123\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "loro@gmail.com",
+                  "val": "karen@gmail.com",
                   "offset": 21
                 },
                 {
                   "val": "loren123",
-                  "offset": 51
+                  "offset": 52
                 }
               ],
               "location": "LoginTestStepDefinition.user_enter_username_sdet_tekschool_us_and_password_sdet(String,String)"
@@ -1708,7 +1702,7 @@
           },
           {
             "result": {
-              "duration": 487357200,
+              "duration": 519819500,
               "status": "passed"
             },
             "line": 129,
@@ -1720,7 +1714,7 @@
           },
           {
             "result": {
-              "duration": 432602000,
+              "duration": 426290700,
               "status": "passed"
             },
             "line": 130,
@@ -1732,7 +1726,7 @@
           },
           {
             "result": {
-              "duration": 356422900,
+              "duration": 194303200,
               "status": "passed"
             },
             "line": 131,
@@ -1753,7 +1747,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2841201500,
+              "duration": 3439643500,
               "status": "passed"
             },
             "line": 5,
@@ -1769,7 +1763,7 @@
         "before": [
           {
             "result": {
-              "duration": 5256614300,
+              "duration": 6225992400,
               "status": "passed"
             },
             "match": {
@@ -1784,8 +1778,9 @@
         "after": [
           {
             "result": {
-              "duration": 667581600,
-              "status": "passed"
+              "duration": 2176151000,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RSTO0AN\u0027, ip: \u0027192.168.86.26\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 24720, moz:profile: C:\\Users\\tetiana\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 59610d3b-b49c-49be-aa4f-ac6ad6c905b8\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:496)\r\n\tat core.Base.tearDown(Base.java:103)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:58)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "Initializer.afterHooks(Scenario)"
@@ -1797,7 +1792,7 @@
         "steps": [
           {
             "result": {
-              "duration": 573207800,
+              "duration": 417792100,
               "status": "passed"
             },
             "line": 134,
@@ -1809,7 +1804,7 @@
           },
           {
             "result": {
-              "duration": 1734146000,
+              "duration": 1568071800,
               "status": "passed"
             },
             "line": 135,
@@ -1821,7 +1816,7 @@
           },
           {
             "result": {
-              "duration": 6101905200,
+              "duration": 6278815000,
               "status": "passed"
             },
             "line": 136,
@@ -1833,7 +1828,7 @@
           },
           {
             "result": {
-              "duration": 6101328700,
+              "duration": 6263493000,
               "status": "passed"
             },
             "line": 137,
@@ -1845,7 +1840,7 @@
           },
           {
             "result": {
-              "duration": 1020526700,
+              "duration": 424784900,
               "status": "passed"
             },
             "line": 138,
@@ -1857,7 +1852,7 @@
           },
           {
             "result": {
-              "duration": 3362748400,
+              "duration": 3115863600,
               "status": "passed"
             },
             "line": 139,
@@ -1869,7 +1864,7 @@
           },
           {
             "result": {
-              "duration": 54847000,
+              "duration": 46545200,
               "status": "passed"
             },
             "line": 140,
@@ -1881,7 +1876,7 @@
           },
           {
             "result": {
-              "duration": 6431533500,
+              "duration": 6136942800,
               "status": "passed"
             },
             "line": 141,
@@ -1893,7 +1888,7 @@
           },
           {
             "result": {
-              "duration": 345700700,
+              "duration": 106550600,
               "status": "passed"
             },
             "line": 142,
@@ -1905,7 +1900,7 @@
           },
           {
             "result": {
-              "duration": 30099500,
+              "duration": 20934300,
               "status": "passed"
             },
             "line": 143,
@@ -1917,7 +1912,7 @@
           },
           {
             "result": {
-              "duration": 25487700,
+              "duration": 21909700,
               "status": "passed"
             },
             "line": 144,
@@ -1929,7 +1924,7 @@
           },
           {
             "result": {
-              "duration": 957722300,
+              "duration": 920943800,
               "status": "passed"
             },
             "line": 145,
@@ -1941,7 +1936,7 @@
           },
           {
             "result": {
-              "duration": 387674500,
+              "duration": 313733600,
               "status": "passed"
             },
             "line": 146,
@@ -1953,7 +1948,7 @@
           },
           {
             "result": {
-              "duration": 67352800,
+              "duration": 229254500,
               "status": "passed"
             },
             "line": 147,
@@ -1965,7 +1960,7 @@
           },
           {
             "result": {
-              "duration": 55166000,
+              "duration": 465482000,
               "status": "passed"
             },
             "line": 148,
@@ -1977,7 +1972,7 @@
           },
           {
             "result": {
-              "duration": 566025500,
+              "duration": 40114800,
               "status": "passed"
             },
             "line": 149,
@@ -1989,7 +1984,7 @@
           },
           {
             "result": {
-              "duration": 403340100,
+              "duration": 118232000,
               "status": "passed"
             },
             "line": 150,
