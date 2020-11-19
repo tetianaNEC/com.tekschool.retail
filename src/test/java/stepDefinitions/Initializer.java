@@ -53,7 +53,7 @@ public class Initializer extends Base {
 			driver = new ChromeDriver();
 		
 
-         Dimension d = new Dimension(1382,744);
+         Dimension d = new Dimension(2560,1440);
 		driver.manage().window().setSize(d);
 		driver.manage().timeouts().pageLoadTimeout(getPageLoadTimeOut(), TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(getImpWait(), TimeUnit.SECONDS);
