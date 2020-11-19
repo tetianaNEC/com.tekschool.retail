@@ -35,10 +35,13 @@ public class Initializer extends Base {
 		// Firefox), because it is faster and goes directly to the needed case
 		// we use WebdriverManager to replace System.setProperty(driver and executable
 		// file)
+		ChromeOptions chromeOptions = new ChromeOptions();
 		String browser = getBrowserName();
 		switch (browser) {
 		case "chrome":
-			WebDriverManager.chromedriver().setup();;
+			
+			WebDriverManager.chromedriver().setup();
+			chromeOptions.addArguments("window-size=1936,1056");
 			driver = new ChromeDriver();
 			break;
 		case "firefox":
@@ -50,9 +53,10 @@ public class Initializer extends Base {
 			driver = new InternetExplorerDriver();
 			break;
 		default:
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("window-size=1936,1056");
+			
+		
 			WebDriverManager.chromedriver().setup();
+			chromeOptions.addArguments("window-size=1936,1056");
 			driver = new ChromeDriver();
 		
 
