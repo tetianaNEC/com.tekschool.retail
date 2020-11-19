@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import core.Base;
@@ -49,12 +50,14 @@ public class Initializer extends Base {
 			driver = new InternetExplorerDriver();
 			break;
 		default:
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.addArguments("window-size=1936,1056");
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		
 
-         Dimension d = new Dimension(2560,1440);
-		driver.manage().window().setSize(d);
+         //Dimension d = new Dimension(2560,1440);
+		driver.manage().window();//.setSize(d);
 		driver.manage().timeouts().pageLoadTimeout(getPageLoadTimeOut(), TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(getImpWait(), TimeUnit.SECONDS);
 	}
