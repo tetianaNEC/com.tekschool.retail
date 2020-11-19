@@ -61,7 +61,7 @@ public class LoginPageObj extends Base {
 	public void verifyRegisterInDropDownMenuAndClick() {
 		
 		if (WebDriverUtility.isElementDisplayed(register))
-			WebDriverUtility.clickOnElement(register); // this is the same as register.click
+			WebDriverUtility.clickElementWithJS(register); // this is the same as register.click
 	}
 
 	public boolean verifyReturningCustomerForm() {
