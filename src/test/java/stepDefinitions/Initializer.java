@@ -1,7 +1,11 @@
 package stepDefinitions;
 
+
+
+
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -33,7 +37,7 @@ public class Initializer extends Base {
 		String browser = getBrowserName();
 		switch (browser) {
 		case "chrome":
-			WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().setup();;
 			driver = new ChromeDriver();
 			break;
 		case "firefox":
@@ -47,10 +51,13 @@ public class Initializer extends Base {
 		default:
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}
-		driver.manage().window().maximize();
+		
+
+         Dimension d = new Dimension(1382,744);
+		driver.manage().window().setSize(d);
 		driver.manage().timeouts().pageLoadTimeout(getPageLoadTimeOut(), TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(getImpWait(), TimeUnit.SECONDS);
+	}
 	}
 	@After
 	public void afterHooks(Scenario scenario) {
