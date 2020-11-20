@@ -12,15 +12,22 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import core.Base;
 
 public class WebDriverUtility extends Base {
+	static WebDriverWait wait = new WebDriverWait(driver, 20);
 	public static void clickOnElement(WebElement element) {
+		
+		wait.until(ExpectedConditions.elementToBeClickable(element));
 		element.click();
 	}
 
 	public static void enterValue(WebElement element, String value) {
+		wait.until(ExpectedConditions.visibilityOf(element));
 		element.sendKeys(value);
 	}
 
