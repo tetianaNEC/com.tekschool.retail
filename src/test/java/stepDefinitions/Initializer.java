@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 import core.Base;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -55,8 +57,10 @@ public class Initializer extends Base {
 			driver = new ChromeDriver();
 		
 
-        
-		driver.manage().window().setSize(new Dimension(1044,784));
+			
+		driver.manage().window();
+		DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setCapability("resolution", "1920x1080");
 		driver.manage().timeouts().pageLoadTimeout(getPageLoadTimeOut(), TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(getImpWait(), TimeUnit.SECONDS);
 	}
